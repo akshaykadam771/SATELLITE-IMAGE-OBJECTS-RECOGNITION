@@ -1,0 +1,15 @@
+item {
+  id: 1
+  name: 'river'
+}
+
+item {
+  id: 2
+  name: 'forest'
+}
+
+item {
+  id: 3
+  name: 'building'
+}
+

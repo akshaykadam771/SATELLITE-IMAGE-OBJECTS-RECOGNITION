@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SATELLITE IMAGE OBJECT DETECTION</title>
+     <style>
+            @import url(https://fonts.googleapis.com/css?family=PT+Sans);
+            *, *:after, *:before {
+           -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            }
+            body{
+                 background-image: url("./static/sat.png");
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+                 background-size: 100% 100%;
+                }
+
+            .container{
+                       vertical-align: middle;
+                       text-align: center;
+                       height: 100vh;
+                      }
+
+            button{
+                   display: inline-block;
+                   position: relative;
+                   background-color: #244144e6;
+                   border: 1.5px solid black;
+                   border-radius: 12px;
+                   color: #fff;
+                   font-size: 20px;
+                   cursor: pointer;
+                   margin: 20px 30px;
+                  }
+
+            span{
+                 display: block;
+                 padding: 18px 50px;
+                }
+
+            button::before, button::after{
+                                         content:"";
+                                         width: 0;
+                                         height: 4px;
+                                         position: absolute;
+                                         transition: all 0.2s linear;
+                                         background: #f20808;
+                                         }
+
+            span::before, span::after{
+                                      content:"";
+                                      width:4px;
+                                      height:0;
+                                      position: absolute;
+                                      transition: all 0.2s linear;
+                                      background: #f88c00;
+                                    }
+
+            button:hover::before, button:hover::after{
+                                                      width: 100%;
+                                                     }
+
+            button:hover span::before, button:hover span::after{
+                                                                height: 100%;
+                                                              }
+
+/*----- button 1 -----*/
+            .btn-1::before, .btn-1::after{
+                                          transition-delay: 0.2s;
+                                         }
+
+
+            .btn-1 span::before, .btn-1 span::after{
+                                                    transition-delay: 0s;
+                                                   }
+
+
+            .btn-1::before{
+                           right: 0;
+                           top: 0;
+                          }
+
+
+            .btn-1::after{
+                         left: 0;
+                         bottom: 0;
+                         }
+
+
+            .btn-1 span::before{
+                                left: 0;
+                                top: 0;
+                               }
+
+
+            .btn-1 span::after{
+                               right: 0;
+                               bottom: 0;
+                              }
+
+
+            .btn-1:hover::before, .btn-1:hover::after{
+                                                      transition-delay: 0s;
+                                                     }
+
+
+            .btn-1:hover span::before, .btn-1:hover span::after{
+                                                                transition-delay: 0.2s;
+                                                               }
+
+
+            .btn4{
+                  width: 100%;
+                  padding: 12px 30px;
+                  background-color: #ce3e4b;
+                  color: #fff;
+                  font-size: 1rem;
+                  border: none;
+                  border-radius: 12px;
+                  outline: none;
+                  cursor: pointer;
+                  transition: .3s;
+                 }
+
+           .btn4:hover{
+                 background-color: #ca2633;
+                }
+
+     </style>
+</head>
+<body>
+      <div class="container">
+          <br><br><br><br>
+          <br><br><br><br>
+          <br><br><br><br>
+          <br><br>
+          <form action="/startapp" method="POST">
+                <button class="btn-1"><span>START APP</span></button>
+          </form> 
+      </div>  
+      
+</body>
+</html>
+
