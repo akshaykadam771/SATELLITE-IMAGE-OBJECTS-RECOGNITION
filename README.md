@@ -1,5 +1,5 @@
 # SATELLITE-IMAGE-OBJECTS-RECOGNITION
-1) It is Mask-rcnn based SATELLITE-IMAGE-OBJECTS-RECOGNITION model.
+
 2)image1
 ![river53](https://user-images.githubusercontent.com/62059604/92327954-f7a9d400-f07a-11ea-8584-6b8b81ed0162.jpg)
 
@@ -11,3 +11,6 @@ Output:-
 
 Output:-
 ![masked6](https://user-images.githubusercontent.com/62059604/92327908-941fa680-f07a-11ea-89a2-87b1bf98aea8.png)
+
+
+1) It is Mask-rcnn based SATELLITE-IMAGE-OBJECTS-RECOGNITION model.
