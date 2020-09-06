@@ -18,3 +18,9 @@ Output:-
 
 
 1) It is Mask-rcnn based SATELLITE-IMAGE-OBJECTS-RECOGNITION model.
+2) model is trained on 1200 images of classes forest, river and building and each class containing around 400 images.
+3) model is trained around 100000 epochs.
+4) from below dataset i have took 3 classes Forest,River and Building for training.
+
+Dataset:- UC Merced Land Use Dataset
+http://weegee.vision.ucmerced.edu/datasets/landuse.html
