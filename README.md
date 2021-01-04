@@ -6,9 +6,11 @@
 - Model is trained on 1200 images of classes **Forest**, **River** and **Building** and each class containing around **400** images.
 
 
-## 🎯 Inference demo
+
 ## :movie_camera: Video Link :- 
 - https://www.linkedin.com/feed/update/urn:li:activity:6708357131101462528/
+
+## 🎯 Inference demo
 
 ![sat1](https://user-images.githubusercontent.com/62059604/103471295-80741a80-4da4-11eb-8cf3-92f7ec88ae09.png)
 ![sat2](https://user-images.githubusercontent.com/62059604/103471298-88cc5580-4da4-11eb-830a-81d226e71ed8.png)
