@@ -8,7 +8,7 @@
 
 
 ## :movie_camera: Video Link :- 
-- https://www.linkedin.com/feed/update/urn:li:activity:6708357131101462528/
+- https://www.youtube.com/watch?v=1rMTWfE7GEA&t=38s
 
 ## 🎯 Inference demo
 
