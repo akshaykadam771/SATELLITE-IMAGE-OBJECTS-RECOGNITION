@@ -7,7 +7,7 @@
 
 
 
-## :movie_camera: Video Link :- 
+## :movie_camera: Inference Video Link :- 
 - https://www.youtube.com/watch?v=1rMTWfE7GEA&t=38s
 
 ## 🎯 Inference demo
